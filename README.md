@@ -45,6 +45,10 @@ To verify that you are receiving data correctly, view the kittens logs using ```
 
 Now, if you go to the main page of the app, it should show first data (check the 404 list, that one is easy to test).
 
+## Troubleshoot
+
+In case kittens all of a sudden stops reporting ensure that you didnt run over any limits of your database (eg too many rows/gb/etc). You might just be blocked from writing to the DB. (Note by andreasklinger)
+
 ## Slack Notifications
 
 ![slack screenshot](https://dl.dropboxusercontent.com/u/6237890/product_screenshots/kittens_slack.png)
